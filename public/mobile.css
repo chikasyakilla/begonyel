@@ -1,0 +1,84 @@
+@media (max-width: 960px) {     /*Header*/
+    #Header .fa-shopping-bag {
+        color:#FFB82C ;
+    }
+    
+    /*Banner*/
+    
+    
+    #Banner  .Banner-Text h6{
+        font-size: 25px;
+        font-weight:200;
+        color: #EC982E;
+    }
+    
+    #Banner .Banner-Text{
+        margin-top: 10%;
+      
+    }
+    
+    #Banner  .Banner-Text h1{
+        font-size: 35px;
+        font-weight:bolder;
+    }
+    
+    #Banner  .Banner-Text span{
+        font-size: 35px;
+        font-weight:100;
+    }
+    
+    #Banner .Banner-Text .btn-success,
+    #Banner .Banner-Text .btn-light {
+        border-radius: 50px;
+    }
+    
+    /*Caroosel*/
+    #Caroosel .carousel-indicators li{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+    
+    #Caroosel .fa-arrow-circle-left,
+    #Caroosel .fa-arrow-circle-right{
+        font-size: 40px;
+    }
+    
+    #Caroosel .carousel-control-prev{
+       margin-left: -2%;
+       justify-content: start;
+       color: #EC982E;
+    }
+    
+    #Caroosel .carousel-control-next{
+        margin-right: -2%;
+        justify-content: end;
+        color: #EC982E;
+    }
+    
+    #Product .card{
+        border-radius: 20px;
+        filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.14));
+    }
+    
+    #Product .card-body .btn-warning{
+        border-radius: 50px;
+    }
+    
+    /* #DetailPesanan .card-body .btn-warning{
+        border-radius: 50px;
+    } */
+    
+    #Success .Success{
+        width :100%;
+        height :auto;
+    }
+    #Success .text-ucapan{
+        color:orange;
+    }
+    
+    #Success .btn-primary{
+        background-color: orange;
+        border: none;
+    }
+ }
